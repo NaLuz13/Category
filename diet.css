@@ -1,0 +1,57 @@
+
+main, section, article, aside, footer {
+  border: 1px black solid; /*marca los bordes de todo*/
+  margin: 10px;
+  padding: 10px;
+  background-color:  #82e0aa ;
+}
+
+head{
+  background-size: cover;
+}
+#head{
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 40px; 
+}
+
+
+p{
+text-align: center;
+}
+
+img {
+    height: 275px; /*COMO HAGO SE VUELVA AUTOMATICO EL TAMAÑO*/
+    display:block;
+    margin:auto;
+}
+
+
+
+
+.grCont {
+   display: inline-grid;/*noborrar*/
+   grid-template-columns: auto auto;/*noborrar*/
+    border: 5px black solid; /*marca los bordes de grid*/
+
+    }
+.grCont  div {   
+    border: 5px black solid; /*marca los bordes de cada div*/
+    color:  #40E0D0;/*color letras de contenedor*/
+  margin: 30px;/*separacion entre cada uno(?)*/
+}
+
+
+
+
+
+
+
+footer{
+  background-size: cover;
+}
+#footer{
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 40px; 
+}
